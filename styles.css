@@ -1,0 +1,22 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: burlywood;
+    
+}
+
+h1{
+    background-color: black;
+    color: chartreuse;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2{
+    color: brown;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
