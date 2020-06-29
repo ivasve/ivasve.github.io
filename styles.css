@@ -20,3 +20,21 @@ footer{
     margin: 20px;
     text-align: center;
 }
+
+.bar{
+    display: block;
+    width: 8em;
+    margin: 0 auto;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    background-color: #2a2a2a;
+    align-content: left;
+}
+
+.progress{
+    display: block;
+    width: 6em;
+    height: 100%;
+    background-color: tomato;
+}
