@@ -1,80 +1,65 @@
-
-body{
-    font-family: "Lucida Sans", lucida-sans;
-    font-size: large;
-    background-color: lightskyblue;
-    margin: 10;
+* {
+	box-sizing: border-box;
 }
 
-.header{
-  background: black;
-  padding: 10px;
+body {
+	width: 100%;
+	background-color: skyblue;
+	margin: 0;
+	margin: 20px;
 }
 
-.navBar{
-  color: white; 
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content:space-between;
- 
-  list-style: none;   
-     }
-
-nav a{
-  color: white;
+nav ul {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	justify-content: space-between;
+	list-style: none;
+	padding: 10px;
 }
 
- .welcome {
-    color:red;
-  }
-  
- .image1 {
-    width: 20%;
-    height: 20%;
-    display: flex;
-   flex-flow: wrap;
-    margin: 0;
-   flex-direction: column;
-  }
-
-h2{
-    color: black;
-    text-align: center;    
+nav ul li a {
+	text-decoration: none;
+	color: white;
 }
 
-.flexbox{
-  width= 100vw;
-  height=400px; 
+nav ul li a:hover {
+	color: orange;
 }
 
-section {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  border-style: solid;
-  border-width: 2px;
-  flex-basis: 30%;
-}    
-
-.flexbox1 {
-  background: red;
-  color: white;
+.castles {
+	display: flex;
+	width: 100vw;
 }
 
-.flexboxFacts {
-  display: flex;
-  flex-direction: column;
-  background-color: pink;
+.castles figure {
+	flex-shrink: 1 1 auto;
 }
 
-article{
-  display: flex;
+.castles img {
+	height: 400px;
 }
-  
+
+.interesting {
+	border: 1px solid black;
+	background: red;
+}
+
+.favourites {
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.favourite-section {
+	width: 50%;
+	border: 1px solid black;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
 footer {
-    margin: 20px;
-    justify-content:center;
+	text-align: center;
 }
-
-

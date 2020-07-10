@@ -1,91 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>My page</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-  <header >
-        <nav class = "header">
-          <ul class="navBar">            
-            <li> <a href="#interestingFacts">Interesting facts</a> </li>
-            <li> <a href="#interests">Interests</a> </li>
-            <li> <a href="#favouriteMovie">Favourite movie</a> </li>
-            <li> <a href="#countries">Countries</a> </li>
-            <li> <a href="#favouriteSites">Favourite sites</a> </li>
-          </ul>
-        </nav>       
-  </header> 
+  <header>
+    <nav>
+      <ul>
+        <li> <a href="#interestingFacts">Interesting facts</a> </li>
+        <li> <a href="#interests">Interests</a> </li>
+        <li> <a href="#favouriteMovie">Favourite movie</a> </li>
+        <li> <a href="#countries">Countries</a> </li>
+        <li> <a href="#favouriteSites">Favourite sites</a> </li>
+      </ul>
+    </nav>
+  </header>
   <main>
- 
+
     <h2 class="welcome">Welcome to my website</h2>
-   <div class="image1">
-    <figure>
-    <a href="https://unsplash.com/photos/I0TFurj83AY">
-    <img src="https://images.unsplash.com/photo-1580852710598-96912fc48065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&q=80">
-      <a/>    </figure>
-      <figcapture>Prague castle </figcapture>
-      
+    <div class="castles">
       <figure>
-      <a href="http://www.zamky-hrady.cz/1/hluboka-e.htm">
-      <img src="http://www.zamky-hrady.cz/1/img/hluboka_trcka.jpg" >
-        </a> </figure>
-      <figcapture> Castle Hluboka </figcapture>
-      </div>
-     
-     <section class="flexboxFacts">
-       <h2 id="interestingFacts">Interesting facts</h2>
+        <img src="https://images.unsplash.com/photo-1580852710598-96912fc48065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&q=80" alt="">
+        <figcaption>Prague castle</figcaption>
+      </figure>
+
+      <figure>
+        <img src="http://www.zamky-hrady.cz/1/img/hluboka_trcka.jpg" alt="">
+        <figcaption>Castle Hluboka</figcaption>
+      </figure>
+    </div>
+
+    <section class="interesting">
+      <h2 id="interestingFacts">Interesting facts</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet risus nullam eget felis eget nunc lobortis mattis. Integer feugiat scelerisque varius morbi enim nunc faucibus a. Commodo elit at imperdiet dui accumsan sit amet. Eget velit aliquet sagittis id consectetur purus ut. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus. Congue nisi vitae suscipit tellus mauris a diam maecenas sed. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Sit amet porttitor eget dolor morbi non. Blandit libero volutpat sed cras ornare arcu dui. Egestas diam in arcu cursus euismod quis viverra nibh cras. Aliquet risus feugiat in ante. Nunc sed id semper risus in hendrerit gravida rutrum quisque.</p>
     </section>
-    <article>
-       <div class="flexbox1"> 
-    <h2 id=interests> My interests </h2>
-    <ul>
-        <li>reading</li>
-        <li>nature</li>
-        <li>solving puzzles</li>
-        <li>skiing</li>
-    </ul>
-  </div> 
-      
-    <section class="flexbox">
-       <h2 id="favouriteMovie">Favourite movie</h2>
-      <p>It's a great movie!!! </p>
-    <a href="https://www.imdb.com/title/tt4916630/mediaviewer/rm638288385">
-        <img height="300" src="https://m.media-amazon.com/images/M/MV5BYmM4YzA5NjUtZGEyOS00YzllLWJmM2UtZjhhNmJhM2E1NjUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="">
-    </a>
-       </section>
-            
-   
-     <section class="flexbox1">
-       <h2 id="countries">Countries I lived in</h2>
-    <ol>
-        <li>Czech republic</li>
-        <li>Denmark</li>
-        <li>Australia</li>
-    </ol>
-       </section>
-       
-    <section class="flexbox">
-       <h2 id="favouriteSites">Favourite sites</h2>
-    <ul>
-        <li><a href="https://scrimba.com/">Scrimba</a> </li>
-        <li><a href="https://amazon.com.au/">Amazon</a> </li>
-    </ul>
-    </section>
-       </article>
-       
-    </main>
+
+    <article class="favourites">
+      <section class="favourite-section">
+        <h2 id=interests> My interests </h2>
+        <ul>
+          <li>reading</li>
+          <li>nature</li>
+          <li>solving puzzles</li>
+          <li>skiing</li>
+        </ul>
+      </section>
+
+      <section class="favourite-section highlight">
+        <h2 id="favouriteMovie">Favourite movie</h2>
+        <p>It's a great movie!!! </p>
+        <a href="https://www.imdb.com/title/tt4916630/mediaviewer/rm638288385">
+          <img height="300" src="https://m.media-amazon.com/images/M/MV5BYmM4YzA5NjUtZGEyOS00YzllLWJmM2UtZjhhNmJhM2E1NjUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="">
+        </a>
+      </section>
+
+
+      <section class="favourite-section">
+        <h2 id="countries">Countries I lived in</h2>
+        <ol>
+          <li>Czech republic</li>
+          <li>Denmark</li>
+          <li>Australia</li>
+        </ol>
+      </section>
+
+      <section class="favourite-section highlight">
+        <h2 id="favouriteSites">Favourite sites</h2>
+        <ul>
+          <li><a href="https://scrimba.com/">Scrimba</a> </li>
+          <li><a href="https://amazon.com.au/">Amazon</a> </li>
+        </ul>
+      </section>
+    </article>
+  </main>
   <footer>
     Created with &rightleftharpoons; Ivana Jones;
-</footer>
+  </footer>
 </body>
 
 
 </html>
-
