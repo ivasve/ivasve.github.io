@@ -1,65 +1,80 @@
+
 body{
-    font-family: "Open Sans", sans-serif;
-    background-color: burlywood;
-    
+    font-family: "Lucida Sans", lucida-sans;
+    font-size: large;
+    background-color: lightskyblue;
+    margin: 10;
 }
 
-.hero{
-    width: 100vw;
-    height: 400px;
-    background-image: url(./hero.jpg);
-    background-size: cover;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
+.header{
+  background: black;
+  padding: 10px;
 }
 
-.hero nav{
-    align-self: flex-end;
-    margin-top: 20px;
-}
+.navBar{
+  color: white; 
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+ 
+  list-style: none;   
+     }
+
 nav a{
-    text-decoration: none;
-    color: white;
-    margin-left: 20px;
-    background-color: black;
-    padding: 5px;
-    
-}
-main{
-    margin: 20px
+  color: white;
 }
 
-.hero h1,
-.hero h2{
-    background-color: black;
-    color: chartreuse;
-    
-}
+ .welcome {
+    color:red;
+  }
+  
+ .image1 {
+    width: 20%;
+    height: 20%;
+    display: flex;
+   flex-flow: wrap;
+    margin: 0;
+   flex-direction: column;
+  }
 
 h2{
-    color: brown;
+    color: black;
+    text-align: center;    
 }
 
-footer{
+.flexbox{
+  width= 100vw;
+  height=400px; 
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-width: 2px;
+  flex-basis: 30%;
+}    
+
+.flexbox1 {
+  background: red;
+  color: white;
+}
+
+.flexboxFacts {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+}
+
+article{
+  display: flex;
+}
+  
+footer {
     margin: 20px;
-    text-align: center;
+    justify-content:center;
 }
 
-.bar{
-    display: block;
-    width: 8em;
-    margin: 0 auto;
-    border-radius: 20px;
-    overflow: hidden;
-    height: 20px;
-    background-color: #2a2a2a;
-    align-content: left;
-}
 
-.progress{
-    display: block;
-    width: 6em;
-    height: 100%;
-    background-color: tomato;
-}
