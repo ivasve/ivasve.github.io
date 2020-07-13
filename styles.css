@@ -29,7 +29,7 @@ nav ul li a:hover {
 
 .castles {
 	display: flex;
-	width: 100vw;
+	max-width: 250px;
 }
 
 .castles figure {
@@ -37,12 +37,14 @@ nav ul li a:hover {
 }
 
 .castles img {
-	height: 400px;
+    height: 400px;
+  /*  max-width: 250px;*/
 }
 
 .interesting {
 	border: 1px solid black;
 	background: red;
+	font-family: 'Dancing Script', cursive;
 }
 
 .favourites {
