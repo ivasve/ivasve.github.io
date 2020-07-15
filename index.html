@@ -1,92 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      shrink-to-fit="no"
+    />
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>My page</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li> <a href="#interestingFacts">Interesting facts</a> </li>
-        <li> <a href="#interests">Interests</a> </li>
-        <li> <a href="#favouriteMovie">Favourite movie</a> </li>
-        <li> <a href="#countries">Countries</a> </li>
-        <li> <a href="#favouriteSites">Favourite sites</a> </li>
-      </ul>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <title>Focus</title>
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <a class="navbar-brand" href="#IJ">IJ</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto content-right">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#interests">Interests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#countries">Visited countries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#favMovie">Favourite movie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#favWebsite">Favourite website</a>
+          </li>
+          <!--     <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> 
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li> -->
+        </ul>
+      </div>
     </nav>
-  </header>
-  <main>
 
-    <h2 class="welcome">Welcome to my website</h2>
-    <div class="castles">
-      <figure>
-        <img src="https://images.unsplash.com/photo-1580852710598-96912fc48065?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=335&q=80" alt="">
-        <figcaption>Prague castle</figcaption>
-      </figure>
-
-      <figure>
-        <img src="http://www.zamky-hrady.cz/1/img/hluboka_trcka.jpg" alt="">
-        <figcaption>Castle Hluboka</figcaption>
-      </figure>
+    <div class="card">
+      <img
+        src="https://images.unsplash.com/photo-1458150945447-7fb764c11a92?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+        class="card-img-top"
+        alt="Czechia"
+      />
+      <div class="card-body">
+        <h5 class="card-title" id="aboutMe">About me</h5>
+        <p class="card-text text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
+          gravida tellus, et fermentum neque. Proin sodales laoreet mi sed
+          pulvinar. Nam nec fringilla tortor. Fusce a tincidunt magna, sed
+          interdum augue. Donec laoreet dictum odio, eu consectetur odio
+          hendrerit vitae. Sed vehicula elit nisl, maximus mattis enim suscipit
+          at. Vestibulum ornare massa sed nulla dignissim, id dictum orci
+          convallis. Nam pellentesque, ex sodales pulvinar interdum, lacus erat
+          venenatis tellus, eget commodo quam enim eget urna. Phasellus et
+          luctus nibh, ac malesuada enim. Phasellus viverra sem et efficitur
+          egestas. Orci varius natoque penatibus et magnis dis parturient
+          montes, nascetur ridiculus mus. Quisque nisi turpis, rutrum porttitor
+          ullamcorper facilisis, sollicitudin vitae mauris. Quisque vulputate
+          vestibulum ornare. Praesent molestie felis a augue malesuada, at
+          lobortis augue viverra. Pellentesque et facilisis lectus, sit amet
+          pretium est. Duis ut turpis enim. Etiam scelerisque, ipsum lobortis
+          pellentesque rutrum, dui leo ullamcorper ligula, vel imperdiet magna
+          odio non nisi. Curabitur non orci dapibus, pretium lectus sit amet,
+          fringilla purus. Suspendisse potenti. Integer vel odio nec sem
+          molestie placerat. Nam efficitur tincidunt turpis sed hendrerit. Duis
+          sagittis auctor mattis. In maximus a arcu id auctor. Quisque lacus
+          nibh, accumsan quis sem eu, suscipit rhoncus leo. Integer dictum
+          tincidunt rhoncus. Cras a augue diam.
+        </p>
+        <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
     </div>
 
-    <section class="interesting">
-      <h2 id="interestingFacts">Interesting facts</h2>
-      <p>This is how we wrote as children. We were taught this writing at school,
-         and after 5 years or so, we were allowed to use a different type of writing.
-        Lorem ipsum....</p>
-    </section>
-
-    <article class="favourites">
-      <section class="favourite-section">
-        <h2 id=interests> My interests </h2>
-        <ul>
-          <li>reading</li>
-          <li>nature</li>
-          <li>solving puzzles</li>
-          <li>skiing</li>
-        </ul>
-      </section>
-
-      <section class="favourite-section highlight">
-        <h2 id="favouriteMovie">Favourite movie</h2>
-        <p>It's a great movie!!! </p>
-        <a href="https://www.imdb.com/title/tt4916630/mediaviewer/rm638288385">
-          <img height="300" src="https://m.media-amazon.com/images/M/MV5BYmM4YzA5NjUtZGEyOS00YzllLWJmM2UtZjhhNmJhM2E1NjUxXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SY1000_CR0,0,674,1000_AL_.jpg" alt="">
-        </a>
-      </section>
-
-
-      <section class="favourite-section">
-        <h2 id="countries">Countries I lived in</h2>
+    <div class="row">
+        <div class="col-sm-6">
+    <div class="card">
+      
+      <div class="card-body">
+        <h5 class="card-title" id="interests">Interests</h5>
         <ol>
-          <li>Czech republic</li>
-          <li>Denmark</li>
-          <li>Australia</li>
+            <li>Reading</li>
+            <li>Nature</li>
+            <li>Skiing</li>
+            <li>Jigsaw puzzles</li>
+            <li>Kakuro</li>
         </ol>
-      </section>
+        <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+      </div>
+    </div>
+    </div>
+    
+    <div class="col-sm-6">
+    <div class="card">      
+        <div class="card-body">
+          <h5 class="card-title" id="countries">Visit countries</h5>
+          <ul>
+              <li>Germany</li>
+              <li>Denmark</li>
+              <li>the UK</li>
+              <li>Austria</li>
+              <li>Italy</li>
+              <li>Australia</li>
+              <li>And so on</li>
+          </ul>
+          <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+      </div>
+      </div>
 
-      <section class="favourite-section highlight">
-        <h2 id="favouriteSites">Favourite sites</h2>
-        <ul>
-          <li><a href="https://scrimba.com/">Scrimba</a> </li>
-          <li><a href="https://amazon.com.au/">Amazon</a> </li>
-        </ul>
-      </section>
-    </article>
-  </main>
-  <footer>
-    Created with &rightleftharpoons; Ivana Jones;
-  </footer>
-</body>
+      <div class="col-sm-6">
+        <div class="card">      
+            <div class="card-body">
+              <h5 class="card-title" id="favMovie">Favourite movie</h5>
+              <p class="card-text text-justify">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
+                gravida tellus, et fermentum neque. Proin sodales laoreet mi sed
+                pulvinar. Nam nec fringilla tortor. Fusce a tincidunt magna, sed
+                interdum augue. Donec laoreet dictum odio, eu consectetur odio
+                hendrerit vitae. Sed vehicula elit nisl, maximus mattis enim suscipit
+                at. Vestibulum ornare massa sed nulla dignissim, id dictum orci
+                convallis. Nam pellentesque, ex sodales pulvinar interdum, lacus erat
+                venenatis tellus, eget commodo quam enim eget urna. Phasellus et
+                luctus nibh, ac malesuada enim. Phasellus viverra sem et efficitur
+                egestas. 
+              </p>
+              <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+          </div>
 
-
+          <div class="col-sm-6">
+            <div class="card">      
+                <div class="card-body">
+                  <h5 class="card-title" id="favWebsite">Favourite website</h5>
+                  <p class="card-text text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget
+                    gravida tellus, et fermentum neque. Proin sodales laoreet mi sed
+                    pulvinar. Nam nec fringilla tortor. Fusce a tincidunt magna, sed
+                    interdum augue. Donec laoreet dictum odio, eu consectetur odio
+                    hendrerit vitae. Sed vehicula elit nisl, maximus mattis enim suscipit
+                    at. Vestibulum ornare massa sed nulla dignissim, id dictum orci
+                    convallis. Nam pellentesque, ex sodales pulvinar interdum, lacus erat
+                    venenatis tellus, eget commodo quam enim eget urna. Phasellus et
+                    luctus nibh, ac malesuada enim. Phasellus viverra sem et efficitur
+                    egestas. 
+                  </p>
+                  <!--  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+              </div>
+              </div>
+  </body>
 </html>
