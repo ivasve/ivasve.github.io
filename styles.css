@@ -1,67 +1,102 @@
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+html,
 body {
-	width: 100%;
-	background-color: skyblue;
-	margin: 0;
-	margin: 20px;
+  margin: 0;
+  padding: 0;
+  background-color: goldenrod;
+}
+
+header,
+main,
+footer {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header nav,
+main section {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px;
+  }
 }
 
 nav ul {
-	display: flex;
-	flex-direction: row;
-	background-color: black;
-	justify-content: space-between;
-	list-style: none;
-	padding: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(141, 4, 4);
+  justify-content: flex-end;
+  list-style: none;
+  padding: 20px;
 }
 
 nav ul li a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  font-size: large;
 }
 
 nav ul li a:hover {
-	color: orange;
+  color: orange;
 }
 
-.castles {
-	display: flex;
-	max-width: 250px;
+.container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.castles figure {
-	flex-shrink: 1 1 auto;
+section p {
+  text-align: justify;
+  padding: 5px;
 }
 
-.castles img {
-    height: 400px;
-  /*  max-width: 250px;*/
+h3 {
+  font-size: x-large;
+  color: rgb(141, 4, 4);
 }
 
-.interesting {
-	border: 1px solid black;
-	background: red;
-	font-family: 'Dancing Script', cursive;
+.projects {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px;
+  /* border: dotted 1px saddlebrown; */
 }
 
-.favourites {
-	border: 1px solid black;
-	display: flex;
-	flex-wrap: wrap;
+.projects > h3 {
+  background-color: lightsalmon;
+  padding: 5px;
 }
 
-.favourite-section {
-	width: 50%;
-	border: 1px solid black;
+.contactContainer {
+  padding: 5px 0;
 }
 
-.highlight {
-	background-color: yellow;
+.contactItems {
+  display: inline-flex;
+}
+
+section div a {
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+section div a:hover {
+  color: lightblue;
 }
 
 footer {
-	text-align: center;
+  text-align: center;
+  text-shadow: grey;
 }
