@@ -28,57 +28,105 @@ nav ul {
   justify-content: flex-end;
   list-style: none;
   padding: 20px;
+  margin: 0;
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
   padding: 15px;
-  font-size: large;
+  font-size: x-large;
+  margin: 0;
 }
 
 nav ul li a:hover {
   color: orange;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#About {
+  background-color: black;
+  color: white;
+  border: solid 2px white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-size: x-large;
+  margin: 0;
+}
+
+#Work {
+  height: 100%;
+}
+
+#Work > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: brown;
+}
+
 .container {
   display: flex;
-  justify-content: space-evenly;
-  align-content: space-between;
+  justify-content: space-between;
+  align-content: space-around;
   margin: 10px 0;
   flex-wrap: wrap;
-}
-
-section p {
-  text-align: justify;
-  padding: 5px;
-}
-
-h3 {
-  font-size: x-large;
-  color: rgb(141, 4, 4);
+  height: 100%;
+  width: 100%;
 }
 
 .projects {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 45%;
   padding: 5px;
-
-  /* border: dotted 1px saddlebrown; */
+  border: solid 1px white;
 }
 
 .projects > h3 {
+  font-size: x-large;
+  color: rgb(141, 4, 4);
   background-color: lightsalmon;
   padding: 5px;
 }
 
+.projects > p {
+  text-align: justify;
+  padding: 5px;
+}
+
+#Contact {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: 5px;
+}
+
+#Contact > h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+  color: brown;
+}
+
 .contactContainer {
-  padding: 5px 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .contactItems {
+  padding: 10px 0;
   display: inline-flex;
+  justify-content: center;
 }
 
 section div a {
@@ -93,7 +141,10 @@ section div a:hover {
 
 footer {
   text-align: center;
-  text-shadow: grey;
+  background-color: rgb(141, 4, 4);
+  color: white;
+  padding: 0.5px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 768px) {
